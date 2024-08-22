@@ -6,10 +6,11 @@
   "author": "SlRvb",
   "license": "MIT",
   "authorUrl": "https://github.com/SlRvb",
-  
   "scripts": {
     "PublishTheme": "sass --watch --no-source-map --color \"src/scss/publish.scss\" \"C:/Users/james/Obsidian/My Vaults/Published/publish.css\"",
-    "buildPublishTheme": "node ./build/buildPublishTheme.config.mjs"
+    "buildPublishTheme": "node ./build/buildPublishTheme.config.mjs",
+    "ITSTheme": "sass --watch --no-source-map --color \"src/scss/ITS Theme.scss\" \"C:/Users/james/Obsidian/My Vaults/Published/.obsidian/themes/ITS Theme/theme.css\"",
+    "buildTheme": "node ./build/buildTheme.config.mjs"
   },
   "devDependencies": {
     "sass": "^1.77.2",
