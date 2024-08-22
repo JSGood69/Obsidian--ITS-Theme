@@ -1,6 +1,6 @@
 /*----Theme: SlRvb Blue----*/
 .slrvb-b {
-  --font: 'Recursive Sans Linear Static Black', 'Oleo Script', 'Norwester';
+  --font: "Recursive Sans Linear Static Black", "Oleo Script", "Norwester";
   /*Works, but if it doesn't, needs !important*/
   --highlight: rgba(46, 124, 214, 0.3);
   --hvr: rgba(0, 137, 255, 0.4);
@@ -81,5 +81,3 @@
   --theme-rainbow-5: var(--file-icon-color);
   --theme-rainbow-6: var(--inactive);
 }
-
-/*# sourceMappingURL=_SlRvb-Blue.css.map */
