@@ -229,7 +229,7 @@ h#{$num}, .is-live-preview .HyperMD-header-#{$num} {
         display: var(--header-border-line-left); 
         background: map-get($set, border-line-left-color);
     }
-    box-shadow: map-get($set, box-shadow);
+    & {box-shadow: map-get($set, box-shadow);}
     
     //Align Header Arrow
     & .heading-collapse-indicator,

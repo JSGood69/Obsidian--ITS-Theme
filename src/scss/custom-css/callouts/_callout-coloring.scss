@@ -19,7 +19,7 @@ $callout-colors: (
     --callout-color-opacity: 20%;
 
     @each $name, $color in $callout-colors {
-        --callout-#{$name}: #{$color};
+        &{--callout-#{$name}: #{$color};}
     
         //Title Text Colors
         &:is(
