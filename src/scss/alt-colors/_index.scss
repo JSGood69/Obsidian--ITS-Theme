@@ -16,10 +16,11 @@
 @use 'Adventure';
 @use 'Accent-Color';
 @use 'In-The-Shadows';
-
-
+// custom theme
+@use 'Good-Blue';
 
 //Reapplication
+.good-blue, // custom theme
 .slrvb-g,
 .slrvb-b,
 .wotc-beyond,

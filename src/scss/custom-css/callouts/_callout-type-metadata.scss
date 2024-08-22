@@ -2,6 +2,12 @@
 /* Metadata */
 body:not(.callout-no-metadata) .callout.callout[data-callout~="Metadata" i] {
     --callout-icon: layers;
+    
+        --callout-border-width: 2px;
+        // --callout-padding: 10px 24px 24px 24px;
+        --callout-title-padding: 5px;
+        --callout-content-padding: 0px 10px 10px;
+        --callout-shadow: 0px 0px 0px 1px var(--outline);
 
     &:not(
         [data-callout-metadata*="bg-"],
@@ -11,12 +17,6 @@ body:not(.callout-no-metadata) .callout.callout[data-callout~="Metadata" i] {
     ) {
         --callout-color: 82, 139, 212;
     }
-
-    --callout-border-width: 2px;
-    // --callout-padding: 10px 24px 24px 24px;
-    --callout-title-padding: 5px;
-    --callout-content-padding: 0px 10px 10px;
-    --callout-shadow: 0px 0px 0px 1px var(--outline);
     
     // Title
     & .callout-title { 

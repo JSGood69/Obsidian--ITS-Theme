@@ -1,0 +1,41 @@
+.callout[data-callout="checks"] {
+  --callout-color: unset;
+  --callout-icon: "check-square";
+  --callout-padding: 0px;
+  --root-list-spacing: 0;
+  --list-indent: 0;
+}
+
+.callout[data-callout="checks"] ul.contains-task-list {
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0;
+}
+
+.callout[data-callout="checks"] ul.contains-task-list li.task-list-item {
+  margin-right: 5px;
+}
+
+.callout[data-callout="checks"] ul.contains-task-list li p {
+  margin-block-start: 0;
+}
+
+.callout[data-callout="checks"] > .callout-content > ul:not(.contains-task-list) {
+  padding-inline-start: 0;
+}
+
+.callout[data-callout="checks"] ul:not(.contains-task-list) li > .list-bullet {
+  display: none;
+}
+
+.callout[data-callout="checks"] ul:not(.contains-task-list) li {
+  --bullet: 0;
+  --indentation-guide-color: transparent;
+  margin-right: 10px;
+}
+
+.callout[data-callout="checks"] ul > li .task-list-item-checkbox {
+  margin-inline-start: 0 !important;
+}
+
+/*# sourceMappingURL=_callout-type-checks.css.map */
