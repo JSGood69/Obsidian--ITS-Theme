@@ -7,6 +7,13 @@
     --accent2: hsl(var(--accent-h), var(--accent-s), 50%);
     --accent2-lite: hsl(var(--accent-h), 50%, 70%);
     
+    //added background
+    --outer-bar: #0E0F15;
+    --dark-sidebar: #090C0E;
+    --side-bar: var(--note);
+    --note: #171B21;
+    --note-rgb: 23, 27, 33;
+
     --headers: hsl(var(--accent-h), var(--accent-s), 50%);
     --soft-text: hsl(var(--accent-h), 20%, 55%);
     --faint-text: hsl(var(--accent-h), 20%, 45%);
